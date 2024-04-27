@@ -29,4 +29,25 @@ const myFunction = function(){
 
 // console.log(typeof outSideTemp);
 // console.log(typeof scoreValue);
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+// *******************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "CodeWithYash";
+let anotherName = myYoutubeName;
+anotherName = "CubeKing";
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+    email: "yash@gmail.com",
+    password: 12345
+}
+
+let userTwo = userOne;
+userTwo.email = "yashchhatrala@gmail.com";
+
+console.log(userOne);
+console.log(userTwo);
